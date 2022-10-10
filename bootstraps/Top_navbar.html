@@ -14,6 +14,14 @@ a:hover{
 	background-color:gray
     
 }
+#pa{
+  width: 300px;
+  height: 30px;
+  box-sizing: border-box;
+}
+#mr{
+  margin-left: 50px;
+}
 </style>
 </head>
 <body class="bg-info">
@@ -22,15 +30,30 @@ a:hover{
 <h2>Nav</h2>
 <p>Basic horizontal menu:</p>
 
-<ul class="nav bg-dark navbar-expand-sm navbars">
+<ul class="nav bg-dark navbar-expand-md navbars">
 <li><a href="#"  class="nav-link text-white p-3">Home</a></li>
 <li><a href="#"  class="nav-link text-white p-3">About Me</a></li>
 <li><a href="#"  class="nav-link text-white p-3">Contact</a></li>
 <li><a href="#"  class="nav-link  text-white disabled p-3">Premium Feature</a></li>
-<li class="nav-link"><input type="text" placeholder="search"></li>
+<li class="nav-link"><input type="text" placeholder="search " id="pa"></li>
 </ul>
 </div>
+<div class="row container p-5" id="mr">
+  <div class="col-md-4 bg-white" style="border: solid red;">
+    <h1>White Intro</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur a odit temporibus, voluptatum dolorum aperiam illo, dicta provident quis quasi et. Nihil assumenda recusandae temporibus magni nesciunt facilis voluptatum placeat!
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia possimus vel corporis animi aspernatur deleniti quia molestias optio exercitationem ea, fugiat laboriosam veniam delectus non doloremque dolorum iusto, nam laudantium?
+      Molestiae nobis enim, exercitationem placeat sint cum quis, neque impedit vero aut doloremque facilis quidem odit? Nostrum ullam quae quas in sint quaerat minima quos deleniti. Repudiandae numquam accusantium repellat!
+    </p>
+  </div>
 
-
+    <div class="col-md-8 bg-success text-white" style="border: solid red;">
+      <h1>Green Intro</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptas sed ratione temporibus amet delectus ex dolor dicta corrupti voluptatem, ducimus vitae nisi iure sit recusandae impedit veritatis voluptate autem.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi incidunt, error quaerat eaque quae fugiat iusto odio debitis accusantium tenetur sapiente dolore recusandae porro quod officia natus facere itaque placeat?
+          Aspernatur minus architecto ducimus quas ab labore iste saepe accusamus odio eveniet ad, perspiciatis nisi placeat doloremque itaque facere unde possimus totam dolorum cumque ut commodi officiis! Magnam, nemo delectus!
+        </p>
+    </div>
+</div>
 </body>
 </html>
