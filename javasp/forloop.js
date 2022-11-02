@@ -15,3 +15,7 @@ do
     j += 2;
 }
 while (j <= 10);
+
+function sumo() {
+    prompt("what is up!")
+}
